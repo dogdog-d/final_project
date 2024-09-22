@@ -43,3 +43,7 @@ class BasePage():
         link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
         link.click()
         # return LoginPage(browser=self.browser, url=self.browser.current_url)
+
+    def go_to_basket_page(self):
+        backet_button = self.browser.find_element(*BasePageLocators.BASKET_BUTTON)
+        backet_button.click()
