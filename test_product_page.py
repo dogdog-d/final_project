@@ -1,7 +1,4 @@
-import time, pytest
-
 from pages.product_page import ProductPage
-from pages.locators import ItemPageLocators
 from pages.backet_page import BasketPage
 
 link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/ '
